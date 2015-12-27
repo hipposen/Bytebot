@@ -10,7 +10,7 @@ from plugins.plugin import Plugin
 from bytebot_config import BYTEBOT_HTTP_TIMEOUT, BYTEBOT_HTTP_MAXSIZE
 from bytebot_config import BYTEBOT_PLUGIN_CONFIG
 
-with open("events.json") as json_file:
+with open("data/events_32c3.json") as json_file:
     json_data = json.load(json_file)
 
 class ccc32c3(Plugin):
